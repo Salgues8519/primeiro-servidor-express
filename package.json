@@ -2,8 +2,9 @@
   "name": "aula-15-primeiro-servidor-express",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc", 
+    "build": "tsc",
     "dev": "ts-node src/servidor.ts",
     "start": "node dist/servidor.js"
   },
@@ -12,6 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.1"
   },
   "devDependencies": {
